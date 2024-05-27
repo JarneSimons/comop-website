@@ -20,6 +20,7 @@ body {
 }
 
 .image-wrapper {
+    position: relative; /* Required for the overlay positioning */
     width: 100%; /* Full width within the container */
     height: calc((100vh - 100px - 24px) / 3); /* Adjust height to fit within viewport */
     margin-bottom: 12px; /* Space between images */
@@ -31,7 +32,6 @@ body {
     height: auto; /* Maintain aspect ratio */
 }
 
-/* last wrapper dont need margin bottom */
 .image-wrapper:last-child {
     margin-bottom: 0;
 }
@@ -44,7 +44,24 @@ body {
 
 h1 {
     margin: 0;
-    padding: 10px 0;
+    padding: 5px 0;
     font-size: 24px;
     text-align: center;
+    font-family: 'Azo Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16pt;
+    margin-top: 8px;
+}
+
+/* Overlay text styling */
+.overlay {
+    position: absolute; /* Position it absolutely within the wrapper */
+    top: 50%; /* Center it vertically */
+    left: 50%; /* Center it horizontally */
+    transform: translate(-50%, -50%); /* Adjust the position to be exactly in the center */
+    color: white; /* White text */
+    font-family: 'Azo Sans', sans-serif; /* Font family */
+    font-weight: bold;
+    font-size: 28px; /* Font size */
+    text-align: center; /* Center the text */
 }
