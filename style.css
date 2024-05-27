@@ -1,19 +1,50 @@
-.imgHomepage {
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Set body height to 100% of the viewport height */
     display: flex;
-    justify-content: space-between; /* Distribute images along the row */
-    align-items: flex-end; /* Align images to the bottom of the container */
-    overflow-x: auto; /* Enable horizontal scrolling for small screens */
-    margin-bottom: 20px; /* Add some space below the images */
+    flex-direction: column;
+    align-items: center; /* Center the content horizontally */
 }
 
-.imgHomepage img {
-    max-width: calc(100% / 3 - 8px); /* Ensure each image takes up 1/3 of the container width with margin */
+.imgHomepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute images along the column */
+    align-items: center; /* Center images horizontally */
+    flex-grow: 1; /* Allow the image container to grow and take up remaining space */
+    width: 100%; /* Full width of the screen */
+    max-width: 100%; /* Ensure it doesn't exceed the viewport width */
+    padding: 0 12px; /* Add padding to the left and right */
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.image-wrapper {
+    width: 100%; /* Full width within the container */
+    height: calc((100vh - 100px - 24px) / 3); /* Adjust height to fit within viewport */
+    margin-bottom: 12px; /* Space between images */
+    overflow: hidden; /* Hide overflow to prevent scrolling */
+}
+
+.image-wrapper img {
+    width: 100%; /* Full width within the wrapper */
     height: auto; /* Maintain aspect ratio */
-    margin-right: 4px; /* Add margin between images */
-    margin-left: 4px;
+}
+
+/* last wrapper dont need margin bottom */
+.image-wrapper:last-child {
+    margin-bottom: 0;
 }
 
 .logo {
     width: 165px;
     height: auto;
+    margin-top: 20px; /* Add some top margin for spacing */
+}
+
+h1 {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 24px;
+    text-align: center;
 }
