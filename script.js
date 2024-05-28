@@ -42,13 +42,13 @@ document.addEventListener('DOMContentLoaded', () => {
             // Change the text after clicking
             switch (overlay.textContent) {
                 case 'Gym owner':
-                    overlay.dataset.newText = '<span style="color: #79ECEC; font-weight: bold;">Gym owners</span>: Build a strong gym community and unlock unlimited motivation for your members.';
+                    overlay.dataset.newText = '<span style="color: #79ECEC; font-weight: bold; font-size: 28px; display: inline-block;">Gym owner</span><div style="margin-top: 16px;">Build a strong gym community and unlock unlimited motivation for your members.</div>';
                     break;
                 case 'Gym member':
-                    overlay.dataset.newText = '<span style="color: #FFB952; font-weight: bold;">Gym members</span>: Get motivated and win free rewards on your fitness journey.';
+                    overlay.dataset.newText = '<span style="color: #FFB952; font-weight: bold; font-size: 28px; display: inline-block;">Gym member</span><div style="margin-top: 16px;">Get motivated and win free rewards on your fitness journey.</div>';
                     break;
                 case 'Gym brand':
-                    overlay.dataset.newText = '<span style="color: #D480FF; font-weight: bold;">Gym brands</span>: Elevate your brand\'s presence in the fitness world.';
+                    overlay.dataset.newText = '<span style="color: #D480FF; font-weight: bold; font-size: 28px; display: inline-block;">Gym brand</span><div style="margin-top: 16px;">Elevate your brand\'s presence in the fitness world.</div>';
                     break;
                 default:
                     break;
@@ -104,4 +104,24 @@ document.addEventListener('DOMContentLoaded', () => {
         // Add click event listener to the image wrapper
         wrapper.addEventListener('click', navigateToUrl);
     });
+
+
+
+  // Function to toggle the mobile navigation menu and change hamburger icon
+  document.getElementById('menu-icon').addEventListener('click', function() {
+    var navLinks = document.getElementById('navLinks');
+    console.log(document.getElementById('menu-icon'));
+    console.log(document.getElementById('navLinks'));
+
+    var menuIcon = document.getElementById('menu-icon');
+    if (navLinks.style.display === 'flex') {
+        navLinks.style.display = 'none';
+        menuIcon.innerHTML = '<img src="./assets/icons/hamburgerIcon.svg" alt="">'; // Change back to hamburger icon
+    } else {
+        navLinks.style.display = 'flex';
+        menuIcon.innerHTML = '<img src="./assets/icons/hamburgerIconClose.svg" alt="">'; // Change to close icon
+    }
+});
+
+    
 });

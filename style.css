@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center; /* Center the content horizontally */
+    background-color: #F2F2F2;
 }
 
 html {
@@ -41,7 +42,6 @@ html {
 }
 
 .logo {
-    width: 165px;
     height: auto;
     margin-top: 20px; /* Add some top margin for spacing */
 }
@@ -75,7 +75,6 @@ h1 {
     font-weight: normal; /* Regular font weight */
     font-weight: 300;
     font-size: 16px; /* Font size */
-    padding: 10px; /* Add some padding for better readability */
 }
 
 
@@ -84,4 +83,127 @@ h1 {
     top: 10%; /* Center it vertically */
     right: 5%; /* Center it horizontally */
 
+}
+
+/* Comop for gym owners */
+.navigationComopMobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 116px;
+    width: 100%;
+    max-width: 100%;
+    background-color: #F2F2F2;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navigationComopMobile .logo {
+    flex: 1;
+}
+
+.navigationComopMobile .logo img {
+    width: 150px;
+    height: auto;
+}
+
+.menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+    display: none; /* Initially hidden */
+    margin-right: 30px; /* Ensure it's aligned to the right */
+}
+
+
+
+.navLinks {
+    display: flex;
+    flex: 2;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: #1C1B1B;
+    font-size: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: 'Azo Sans', sans-serif;
+    font-weight: normal;
+    
+}
+
+@media (max-width: 768px) {
+    .navLinks {
+        display: none; /* Hide links on mobile */
+        flex-direction: column;
+        width: 100%;
+        background-color: #F2F2F2;
+        position: absolute;
+        top: 116px; /* Below the navbar */
+        left: 0;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border-top: 1px solid #C9C9C9;
+        text-align: center;
+        align-items: center;
+    }
+
+    .navLinks a {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .navLinks a:first-child:hover {
+        color: #D480FF;
+    }
+    
+    .navLinks a:nth-child(2):hover {
+        color: #FFB952;
+    }
+
+    .navLinks a:nth-child(3):hover {
+        color: #6CC2FF;
+    }
+
+    .navLinks a:nth-child(4):hover {
+        color: #80F075;
+    }
+
+    .navLinks a:last-child:hover {
+        color: #D480FF;
+    }
+
+    .menu-icon {
+        display: block; /* Show hamburger on mobile */
+    }
+}
+
+.imgHeader {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./assets/images/comopOwners.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative; /* Ensure positioning context for child elements */
+    margin-top: 116px; /* Adjust for fixed navbar height */
+}
+
+.logoOwners {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+}
+
+.logoGymBrands img{
+    width: 90%;
+    height: auto;
+    padding-left: 20px;
 }
