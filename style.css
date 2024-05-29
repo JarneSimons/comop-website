@@ -463,4 +463,214 @@ h1 {
     font-weight: 200;  
     margin-left: 24px; 
     margin-right: 24px;  
+    
+}
+
+.phoneSection h1 {
+    font-family: 'Azo Sans', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #1C1B1B;
+    text-align: center;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 60px;
+
+}
+
+.phoneSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+}
+
+.phone{
+    background-image: url('./assets/images/bgPhone.svg');
+    background-position: center;
+    background-size: contain; /* Ensure the image fits within the container */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    width: 300px; /* Set the desired width */
+    height: 400px; /* Set the desired height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 24px;
+
+}
+
+.fitpassBox {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    margin-top: 36px;
+}
+
+.fitpassBox h1 {
+    font-family: 'Azo Sans', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #1C1B1B;
+    text-align: left;
+    margin-left: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+}
+
+.fitpassBox span {
+    font-family: 'Azo Sans', sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    color: #6CC2FF;
+    text-align: left;
+    padding-right: 12px;
+}
+
+.fitpassBox p {
+    font-family: 'Azo Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #1C1B1B;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.newsfeedBox {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    margin-top: 36px;
+}
+
+.newsfeedBox h1 {
+    font-family: 'Azo Sans', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #1C1B1B;
+    text-align: left;
+    margin-left: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+}
+
+.newsfeedBox span {
+    font-family: 'Azo Sans', sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    color: #6CC2FF;
+    text-align: left;
+    padding-right: 12px;
+}
+
+.newsfeedBox p {
+    font-family: 'Azo Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #1C1B1B;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.challengesBox {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    margin-top: 36px;
+}
+
+.challengesBox h1 {
+    font-family: 'Azo Sans', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #1C1B1B;
+    text-align: left;
+    margin-left: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+}
+
+.challengesBox span {
+    font-family: 'Azo Sans', sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    color: #6CC2FF;
+    text-align: left;
+    padding-right: 12px;
+}
+
+.challengesBox p {
+    font-family: 'Azo Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #1C1B1B;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.profileBox{
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    margin-top: 36px;
+}
+
+.profileBox h1 {
+    font-family: 'Azo Sans', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #1C1B1B;
+    text-align: left;
+    margin-left: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+}
+
+.profileBox span {
+    font-family: 'Azo Sans', sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    color: #6CC2FF;
+    text-align: left;
+    padding-right: 12px;
+}
+
+.profileBox p {
+    font-family: 'Azo Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #1C1B1B;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.clickable {
+    cursor: pointer;
+    padding: 12px;
+    box-sizing: border-box;
+    border-bottom: 2px solid transparent; /* Add a transparent border */
+}
+
+.activeBox {
+    border-bottom: 2px solid #6CC2FF; /* Adjust the color to your blue */
+}
+
+.activeBox h1 {
+    color: #6CC2FF; /* Adjust the color to your blue */
 }

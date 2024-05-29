@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', function() {
     // Select all image wrappers
     const imageWrappers = document.querySelectorAll('.image-wrapper');
 
@@ -105,23 +105,39 @@ document.addEventListener('DOMContentLoaded', () => {
         wrapper.addEventListener('click', navigateToUrl);
     });
 
+    // Function to toggle the mobile navigation menu and change hamburger icon
+    document.getElementById('menu-icon').addEventListener('click', function() {
+        var navLinks = document.getElementById('navLinks');
+        var menuIcon = document.getElementById('menu-icon');
+        if (navLinks.style.display === 'flex') {
+            navLinks.style.display = 'none';
+            menuIcon.innerHTML = '<img src="./assets/icons/hamburgerIcon.svg" alt="">'; // Change back to hamburger icon
+        } else {
+            navLinks.style.display = 'flex';
+            menuIcon.innerHTML = '<img src="./assets/icons/hamburgerIconClose.svg" alt="">'; // Change to close icon
+        }
+    });
 
+    // Your added functionality for changing the mockup images
+    const boxes = document.querySelectorAll('.clickable');
+    const mockupImage = document.getElementById('mockupImage');
 
-  // Function to toggle the mobile navigation menu and change hamburger icon
-  document.getElementById('menu-icon').addEventListener('click', function() {
-    var navLinks = document.getElementById('navLinks');
-    console.log(document.getElementById('menu-icon'));
-    console.log(document.getElementById('navLinks'));
+    boxes.forEach(box => {
+        box.addEventListener('click', function() {
+            // Remove active class from all boxes
+            boxes.forEach(box => box.classList.remove('activeBox'));
 
-    var menuIcon = document.getElementById('menu-icon');
-    if (navLinks.style.display === 'flex') {
-        navLinks.style.display = 'none';
-        menuIcon.innerHTML = '<img src="./assets/icons/hamburgerIcon.svg" alt="">'; // Change back to hamburger icon
-    } else {
-        navLinks.style.display = 'flex';
-        menuIcon.innerHTML = '<img src="./assets/icons/hamburgerIconClose.svg" alt="">'; // Change to close icon
-    }
-});
+            // Add active class to the clicked box
+            this.classList.add('activeBox');
 
-    
+            // Update the image src
+            const newImageSrc = this.getAttribute('data-img');
+            mockupImage.setAttribute('src', newImageSrc);
+        });
+    });
+
+    const firstBox = boxes[0];
+    firstBox.classList.add('activeBox');
+    const initialImageSrc = firstBox.getAttribute('data-img');
+    mockupImage.setAttribute('src', initialImageSrc);
 });
