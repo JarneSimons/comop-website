@@ -284,3 +284,183 @@ h1 {
     justify-content: center;
     align-items: center;
 }
+
+.container-background {
+    background-image: url('./assets/images/GymImg1.svg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    font-family: 'Azo Sans', sans-serif;
+    color: #F2F2F2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container h3 {
+    font-size: 16px;
+    font-weight: normal;   
+    margin-left: 24px; 
+    margin-right: 24px; 
+}
+
+.container img {
+    width: 60%;
+    height: auto;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+
+.container-background2 {
+    background-image: url('./assets/images/gymImg2.svg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
+    font-family: 'Azo Sans', sans-serif;
+    color: #F2F2F2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.container2 h3 {
+    font-size: 16px;
+    font-weight: normal;  
+    margin-left: 24px; 
+    margin-right: 24px;  
+}
+
+.container2 img {
+    width: 35%;
+    height: auto;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.container-background3 {
+    background-image: url('./assets/images/gymImg3.svg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container3 {
+    font-family: 'Azo Sans', sans-serif;
+    color: #F2F2F2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.container3 h3 {
+    font-size: 16px;
+    font-weight: normal;  
+    margin-left: 24px; 
+    margin-right: 24px;  
+}
+
+.container3 img {
+    width: 30%;
+    height: auto;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.container-background4 {
+    background-image: url('./assets/images/gymImg4.svg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container4 {
+    font-family: 'Azo Sans', sans-serif;
+    color: #F2F2F2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.container4 h3 {
+    font-size: 16px;
+    font-weight: normal; 
+    align-items: center;
+    text-align: center;  
+    margin-left: 24px; 
+    margin-right: 24px;
+}
+
+.container4 img {
+    width: 25%;
+    height: auto;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.container-backgroundText {
+    background-image: url('./assets/images/gymImg5.svg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #F2F2F2;
+    font-family: 'Azo Sans', sans-serif;
+    flex-direction: column;
+}
+
+.container-backgroundText h3 {
+    font-size: 16px;
+    font-weight: normal;  
+    margin-left: 24px; 
+    margin-right: 24px; 
+    margin-bottom: 0px; 
+}
+
+.container-backgroundText p {
+    font-size: 16px;
+    font-weight: 200;  
+    margin-left: 24px; 
+    margin-right: 24px;  
+}
