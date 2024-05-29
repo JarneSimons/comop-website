@@ -696,6 +696,7 @@ h1 {
     align-items: center;
     color: #1C1B1B;
     text-align: left;
+    padding-bottom: 44px;
 }
 
 .pricing h1 {
@@ -717,6 +718,7 @@ h1 {
     margin-right: 24px;
     margin-top: 8px;
 }
+
 
 .pricingBox{
     display: flex;
@@ -943,6 +945,15 @@ h1 {
     padding-top: 16px;
 }
 
+.lastTextPricing {
+    color: #F2F2F2;
+    font-family: 'Azo Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+
+}
+
 .whoComop {
     position: relative;
     padding-bottom: 86px;
@@ -962,4 +973,205 @@ h1 {
     bottom: -7%;
     right: -15%;
     transform: translateY(-50%);
+}
+
+.slogan {
+    background-image: url('./assets/images/sloganImg.svg');
+    /* background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto; */
+
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1C1B1B;
+    text-align: left;
+    padding-bottom: 44px;
+
+}
+
+.slogan p {
+    font-family: 'Azo Sans', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #F2F2F2;
+    text-align: center;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 60px;
+
+}
+
+.slogan div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.slogan span {
+    /* start this text on a new line */
+    display: block;
+    font-family: 'Azo Sans', sans-serif;
+    font-weight: normal;
+
+    color: #F2F2F2;
+    padding-top: 24px;
+}
+
+
+.contact {
+    background-color: #1C1B1B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 140px;
+    font-family: 'Azo Sans', sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact h1 {
+    font-family: 'Azo Sans', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 60px;
+    color: #F2F2F2;
+}
+
+.contact1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    width: 300px;
+}
+
+.contact1 h3 {
+    font-family: 'Azo Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #1C1B1B;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contact1 h3 span {
+    display: block;
+    color: #D480FF;
+}
+
+.contact1 img {
+    padding-bottom: 20px;
+}
+
+.contact2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    width: 300px;
+}
+
+.contact2 h3 {
+    font-family: 'Azo Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #1C1B1B;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contact2 h3 span {
+    display: block;
+    color: #FFB952;
+}
+
+.contact2 img {
+    padding-bottom: 20px;
+}
+
+.btnsContact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+}
+.arrowR2 {
+    position: absolute;
+    bottom: -4%;
+    right: -25%;
+    transform: translateY(-50%);
+}
+
+.arrowL2 {
+    position: absolute;
+    top: 10%;
+    left: -15%;
+    transform: translateY(-50%);
+}
+
+.footerStyle {
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 116px;
+    width: 100%;
+    justify-content: center;
+    font-family: 'Azo Sans', sans-serif;
+    color: #1C1B1B;
+    text-align: center;
+}
+
+.footerStyle a {
+    text-decoration: none;
+    color: #1C1B1B;
+    font-size: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: 'Azo Sans', sans-serif;
+    font-weight: normal;
+}
+
+.footerLinks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.footerLinks a:first-child:hover {
+    color: #D480FF;
+}
+
+.footerLinks a:nth-child(2):hover {
+    color: #FFB952;
+}
+
+.footerLinks a:nth-child(3):hover {
+    color: #6CC2FF;
 }
