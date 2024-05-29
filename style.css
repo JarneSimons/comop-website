@@ -889,3 +889,77 @@ h1 {
     font-weight: bold;
     color:#D480FF;
 }
+
+/* who is comop section */
+.whoComop h1 {
+    font-family: 'Azo Sans', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #1C1B1B;
+    text-align: center;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 60px;
+}
+
+.whoComop img {
+    width: 80%;
+    height: auto;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.whoComopBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.whoComopText{
+    width: 85%;
+}
+
+.normalText {
+    font-family: 'Azo Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #1C1B1B;
+    text-align: center;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 8px;
+}
+
+.boldText {
+    font-family: 'Azo Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #1C1B1B;
+    text-align: center;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 16px;
+    padding-top: 16px;
+}
+
+.whoComop {
+    position: relative;
+    padding-bottom: 86px;
+    padding-top: 24px;
+    overflow: hidden;
+}
+
+.arrowL {
+    position: absolute;
+    top: 10%;
+    left: -19%;
+    transform: translateY(-50%);
+}
+
+.arrowR {
+    position: absolute;
+    bottom: -7%;
+    right: -15%;
+    transform: translateY(-50%);
+}
