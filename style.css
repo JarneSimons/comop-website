@@ -317,7 +317,6 @@ h1 {
     background-position: center;
     background-size: cover;
     /* padding-bottom: 20vh; */
-    
 }
 
 
@@ -366,6 +365,7 @@ h1 {
     margin-left: 24px; 
     margin-right: 24px; 
 }
+
 
 .container img {
     width: 60%;
@@ -1360,4 +1360,146 @@ h1 {
         padding-bottom: 24px;
     }
 
+            /* 
+    ========================================
+    
+    For the gym members 
+    
+    ========================================
+    */
+    
+    .contactClickMember {
+        position: absolute;
+        z-index: -999;
+        top: 715vh;
+    }
 
+    .pricingClickMember {
+        position: absolute;
+        z-index: -999;
+        top: 575vh;
+    }
+
+    .logoMembers {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: auto;
+    }
+
+    .logoGymMembers a{
+        margin-left: 30px;
+        padding: 20px 90px;
+        background-image: url('assets/images/comopForGymMembersBlack.svg');
+        background-repeat: no-repeat;
+    }
+   
+    .logoGymMembers a:hover, .logoGymMembers a:active {
+        padding: 20px 90px;
+        background-image: url('assets/images/comopForGymMembersPurple.svg');
+    }
+
+    .containerMember {
+        font-family: 'Azo Sans', sans-serif;
+        color: #F2F2F2;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
+    }
+    
+    .containerMember h3 {
+        font-size: 16px;
+        font-weight: normal;  
+        margin-left: 24px; 
+        margin-right: 24px;  
+    }
+    
+    .containerMember img {
+        width: 70%;
+        height: auto;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .containerMember2 {
+        font-family: 'Azo Sans', sans-serif;
+        color: #F2F2F2;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
+    }
+    
+    .containerMember2 h3 {
+        font-size: 16px;
+        font-weight: normal;  
+        margin-left: 24px; 
+        margin-right: 24px;  
+    }
+    
+    .containerMember2 img {
+        width: 50%;
+        height: auto;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .containerMember3 {
+        font-family: 'Azo Sans', sans-serif;
+        color: #F2F2F2;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
+    }
+    
+    .containerMember3 h3 {
+        font-size: 16px;
+        font-weight: normal;  
+        margin-left: 24px; 
+        margin-right: 24px;  
+    }
+    
+    .containerMember3 img {
+        width: 30%;
+        height: auto;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .containerMember4 {
+        font-family: 'Azo Sans', sans-serif;
+        color: #F2F2F2;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
+    }
+    
+    .containerMember4 h3 {
+        font-size: 16px;
+        font-weight: normal;  
+        margin-left: 24px; 
+        margin-right: 24px;  
+    }
+    
+    .containerMember4 img {
+        width: 50%;
+        height: auto;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }

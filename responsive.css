@@ -295,7 +295,7 @@
     }
 
     .contactClick {
-        top: 740vh;
+        top: 750vh;
     }
 
     .contact h1 {
@@ -334,13 +334,42 @@
         /* 
     ========================================
     
-    For the gym brands 
+    For the gym members 
     
     ========================================
     */
 
-    
+    .containerMember img {
+        width: 70%;
+        height: auto;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
 
+    .containerMember3 img {
+        width: 25%;
+        height: auto;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .containerMember4 img {
+        width: 40%;
+        height: auto;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .contactClickMember {
+        z-index: -999;
+        top: 640vh;
+    }
+
+    .pricingClickMember {
+        position: absolute;
+        z-index: -999;
+        top: 480vh;
+    }
 
 }
 
