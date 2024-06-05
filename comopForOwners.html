@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
     <nav class="navigationComopMobile">
-        <div class="logoGymBrands">
+        <div class="logoGym">
             <a href="./index.html">
-                <img src="./assets/images/comopForGymOwnersBlack.svg" alt="ComopForGymBrandsBlack">
             </a>
         </div>
         <div class="menu-icon" id="menu-icon">
@@ -18,10 +18,10 @@
         </div>
         <div class="navLinks" id="navLinks">
             <a href="./index.html">Home</a>
-            <a href="#">About Comop</a>
-            <a href="#">Who is Comop</a>
-            <a href="#">Contact</a>
-            <a href="https://expo.dev/preview/update?message=First%20publish&updateRuntimeVersion=1.0.0&createdAt=2024-06-01T14%3A06%3A09.485Z&slug=exp&projectId=129aa99b-dff8-4a5f-9ad4-7659ff7e4894&group=0f769970-df40-4d06-bce9-75605d0ef4e2" target="_blank">Download Comop</a>
+            <a href="#aboutScroll">About Comop</a>
+            <a href="#pricingScroll">Pricing</a>
+            <a href="#contactScroll">Contact</a>
+            <a href="https://expo.dev/preview/update?message=First%20publish&updateRuntimeVersion=1.0.0&createdAt=2024-06-01T14%3A06%3A09.485Z&slug=exp&projectId=129aa99b-dff8-4a5f-9ad4-7659ff7e4894&group=0f769970-df40-4d06-bce9-75605d0ef4e2" target="_blank" id="download">Download Comop</a>
         </div>
     </nav>
 
@@ -31,9 +31,10 @@
                 <img src="./assets/images/comopForGymOwners.svg" alt="ComopForGymBrands">
             </div>
             <div class="arrow-down">
-                <img src="./assets/icons/arrowDown.svg" alt="Scroll Down">
+                <a href="#aboutScroll"><img src="./assets/icons/arrowDown.svg" alt="Scroll Down"></a>
             </div>
         </div>
+        <div id="aboutScroll" class="aboutClick"></div>
     </div>
 
     <section>
@@ -80,6 +81,7 @@
                 <p>Become part of Comop and revolutionize the fitness industry. In a world where fitness motivation rapidly declines after the January rush, there is a clear need for a solution that provides lasting engagement and connectivity for the fitness people. Comop offers precisely that solution. Our app introduces a unique concept that challenges fitness enthusiasts with engaging tasks and rewards. We are committed to creating a community that thrives on motivation and camaraderie.</p>
             </div>
         </div>
+       
     </section>
 
     <section class="phoneSection">
@@ -111,6 +113,7 @@
             <a href="https://expo.dev/preview/update?message=First%20publish&updateRuntimeVersion=1.0.0&createdAt=2024-06-01T14%3A06%3A09.485Z&slug=exp&projectId=129aa99b-dff8-4a5f-9ad4-7659ff7e4894&group=0f769970-df40-4d06-bce9-75605d0ef4e2" target="_blank"><img src="./assets/images/googlePlay.svg" alt=""></a>
             <a href="https://expo.dev/preview/update?message=First%20publish&updateRuntimeVersion=1.0.0&createdAt=2024-06-01T14%3A06%3A09.485Z&slug=exp&projectId=129aa99b-dff8-4a5f-9ad4-7659ff7e4894&group=0f769970-df40-4d06-bce9-75605d0ef4e2" target="_blank"><img src="./assets/images/AppStore.svg" alt=""></a>
         </div>
+        <div id="pricingScroll" class="pricingClick"></div>
     </section>
 
     <section class="pricing">
@@ -135,14 +138,13 @@
                             <p>Account per agreed-upon member</p>
                         </div>
                         <div class="option3">
-                            <img src="./assets/icons/blueVinkje.svg" alt="">
+                            <img src="./assets/icons/blueCross.svg" alt="">
                             <p>No reward provision</p>
                         </div>
                     </div>
                     
                     <a class="btnContact" href="">Contact us</a>
                 </div>
-            </div>
             
             <div class="rewardPlan">
                 <div class="mostPopular">
@@ -170,11 +172,11 @@
                 <a class="btnContact" href="">Contact us</a>
 
             </div>
-            <div class="lastTextPricing">
-                <p>
-                    *plans are per month
-                </p>
-            </div>
+        </div>
+        <div class="lastTextPricing">
+            <p>
+                *plans are per month
+            </p>
         </div>
     </section>
 
@@ -202,6 +204,7 @@
                 “We aim to inspire and support fitness enthusiasts, from beginners to seasoned athletes, in achieving their goals.”<span>— Comop</span> 
             </p>
         </div>
+        <div id="contactScroll" class="contactClick"></div>
     </section>
 
     <section class="contact">
@@ -213,12 +216,12 @@
             <img src="./assets/images/arrowsRight2.svg" alt="">
         </div>
         <h1>Contact</h1>
-        <div>
+        <div class="contacts">
             <div class="contact1">
                 <h3>
                     Contact us to join the<span>Comop fitness family</span>
                 </h3>
-                <a href="">
+                <a href="mailto:contact@comop.be">
                     <img src="./assets/icons/mailIcon.svg" alt="">
                 </a>
             </div>
@@ -228,7 +231,7 @@
                     Follow us on our<span>Socials</span>
                 </h3>
                     <div class="btnsContact">
-                        <a href="">
+                        <a href="https://www.instagram.com/comop.app/" target="_blank">
                             <img src="./assets/icons/instaIcon.svg" alt="">
                         </a>
                         <a href="">
@@ -241,12 +244,13 @@
     </section>
 
     <footer class="footerStyle">
+        <p>© comop 2024</p>
         <div class="footerLinks">
             <a href="#">Terms & Conditions</a>
             <a href="#">Privacy Policy</a>
-            <a href="">Contact</a>
+            <a href="#contactScroll">Contact</a>
         </div>
-        <p>© comop 2024</p>
+        
     </footer>
     
 

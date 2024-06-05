@@ -1,0 +1,318 @@
+@media (min-width: 768px) {
+    .logoOwners img {
+        width: 500px;
+    }
+
+    .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .title h1 {
+        font-size: 30px;
+    }
+
+    .title p {
+        font-size: 25px;
+    
+    }
+
+    .image-container {
+        display: grid;
+        grid-template-columns: (2, 1fr);
+        grid-template-rows: auto auto auto;
+        gap: 24px;
+    }
+
+    .image-container h3 {
+        font-size: 25px;
+    }
+
+    .container-background, .container-background2, .container-background3, .container-background4 {
+        grid-column: span 1;
+        height: 516px;
+        width: 726px;
+    }
+
+    .container-backgroundText {
+        grid-column: span 2;
+        height: 516px;
+    }
+
+    .container-backgroundText h3 {
+        font-size: 25px;
+    }
+
+    .container-backgroundText p {
+        font-size: 20px;
+        margin-left: 25vw;
+        margin-right: 25vw;
+        text-align: justify;
+    }
+
+    /* Algemene styling voor mobiele apparaten */
+.phoneSection h1 {
+    font-family: 'Azo Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #1C1B1B;
+    text-align: center;
+    margin: 80px 24px 40px 24px;
+}
+
+.phoneSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 0 86px 0;
+}
+
+.phone {
+    background-image: url('./assets/images/bgPhone.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px; /* Adjusted margin for smaller spacing */
+    grid-area: phone;
+}
+
+.fitpassBox, .newsfeedBox, .challengesBox, .profileBox {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+}
+
+.fitpassBox h1, .newsfeedBox h1, .challengesBox h1, .profileBox h1,
+.fitpassBox span, .newsfeedBox span, .challengesBox span, .profileBox span,
+.fitpassBox p, .newsfeedBox p, .challengesBox p, .profileBox p {
+    font-family: 'Azo Sans', sans-serif;
+    margin: 0;
+}
+
+.fitpassBox h1, .newsfeedBox h1, .challengesBox h1, .profileBox h1 {
+    font-weight: bold;
+    font-size: 24px;
+    color: #1C1B1B;
+    text-align: left;
+}
+
+.fitpassBox span, .newsfeedBox span, .challengesBox span, .profileBox span {
+    font-weight: bold;
+    font-size: 64px;
+    color: #6CC2FF;
+    text-align: left;
+    padding-right: 12px;
+}
+
+.fitpassBox p, .newsfeedBox p, .challengesBox p, .profileBox p {
+    font-weight: normal;
+    font-size: 16px;
+    color: #1C1B1B;
+    text-align: left;
+}
+
+.clickable {
+    cursor: pointer;
+    padding: 12px;
+    box-sizing: border-box;
+    border-bottom: 2px solid transparent;
+    border-left: 4px solid #F2F2F2;
+}
+
+.activeBox {
+    border-left: 4px solid #6CC2FF;
+}
+
+.activeBox h1 {
+    color: #6CC2FF;
+}
+
+.downloadBtn {
+    padding-top: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+
+
+/* Styling voor grotere schermen */
+    .phoneSection {
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: 1;
+        grid-template-areas:
+            "title title title"
+            "step1 phone step2"
+            "step3 phone step4"
+            "buttons buttons buttons";
+        gap: 40px;
+        justify-items: center;
+    }
+
+    .phoneSection h1 {
+        grid-area: title;
+    }
+
+
+    #mockupImage {
+        width: auto;
+        height: 500px;
+    }
+
+    .fitpassBox {
+        grid-area: step1;
+    }
+
+    .newsfeedBox {
+        grid-area: step2;
+    }
+
+    .challengesBox {
+        grid-area: step3;
+    }
+
+    .profileBox {
+        grid-area: step4;
+    }
+
+    .downloadBtn {
+        grid-area: buttons;
+        flex-direction: row;
+    }
+
+    .pricingClick {
+        top: 480vh;
+    }
+
+    .pricingBox h1 {
+        font-size: 30px;
+    }
+
+    .pricingBox p {
+        font-size: 25px;
+    }
+
+    .pricingPlans {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        gap: 32px;
+    }
+
+    .arrowL {
+        position: absolute;
+        top: 13%;
+        left: 0%;
+        transform: translateY(-50%);
+    }
+    
+    .arrowR {
+        position: absolute;
+        bottom: 0%;
+        right: -5%;
+        transform: translateY(-50%);
+    }
+
+    .whoComopBox {
+        padding: 5vh 0;
+    }
+
+    .whoComopBox h1 {
+        font-size: 30px;
+    }
+
+    .whoComopBox img {
+        width: 600px;
+    }
+
+    .normalText {
+        font-size: 20px;
+        margin: 0 250px;
+    }
+
+    .boldText {
+        font-size: 22px;
+        font-weight: bold;
+        margin: 40px 250px 0;
+    }
+
+    .slogan p {
+        font-size: 30px;
+        margin-left: 250px;
+        margin-right: 250px;
+        margin-top: 100px;
+    }
+
+    .arrowL2 {
+        position: absolute;
+        top: 15%;
+        left: 0%;
+        transform: translateY(-50%);
+    }
+
+    .arrowR2 {
+        position: absolute;
+        bottom: 5%;
+        right: -2%;
+        transform: translateY(-50%);
+    }
+
+    .arrowL2 img {
+        width: 140px;
+    }
+
+    .arrowR2 img {
+        width: 200px;
+    }
+
+    .contactClick {
+        top: 740vh;
+    }
+
+    .contact h1 {
+        font-size: 30px;
+    }
+
+    .contacts {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        padding: 10vh 0;
+    }
+
+    .contact1, .contact2 {
+        width: 400px;
+        height: 300px;
+    }
+
+    .contact1 h3, .contact2 h3 {
+        font-size: 25px;
+    }
+
+    .footerStyle {
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0px 50px;
+    }
+
+    .footerLinks {
+        flex-direction: row;
+        gap: 32px;
+    }
+
+
+}
+
