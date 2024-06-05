@@ -219,13 +219,13 @@ h1 {
 .logoGym a{
     margin-left: 30px;
     padding: 20px 90px;
-    background-image: url('./assets/images/comopForGymOwnersBlack.svg');
+    background-image: url('assets/images/comopForGymOwnersBlack.svg');
     background-repeat: no-repeat;
 }
 
 .logoGym a:hover, .logoGym a:active {
     padding: 20px 90px;
-    background-image: url('./assets/images/comopForGymOwnersPurple.svg');
+    background-image: url('assets/images/comopForGymOwnersPurple.svg');
 }
 
 /* Position and animate the arrow icon */
@@ -300,7 +300,7 @@ h1 {
 
 
 .homepage {
-    background-image: url('./assets/images/comopOwners.svg');
+    background-image: url('assets/images/comopOwners.svg');
     background-position: center;
     background-size: cover;
     /* padding-bottom: 20vh; */
@@ -326,7 +326,7 @@ h1 {
 }
 
 .container-background {
-    background-image: url('./assets/images/GymImg1.svg');
+    background-image: url('assets/images/GymImg1.svg');
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -363,7 +363,7 @@ h1 {
 
 
 .container-background2 {
-    background-image: url('./assets/images/gymImg2.svg');
+    background-image: url('assets/images/gymImg2.svg');
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -400,7 +400,7 @@ h1 {
 }
 
 .container-background3 {
-    background-image: url('./assets/images/gymImg3.svg');
+    background-image: url('assets/images/gymImg3.svg');
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -437,7 +437,7 @@ h1 {
 }
 
 .container-background4 {
-    background-image: url('./assets/images/gymImg4.svg');
+    background-image: url('assets/images/gymImg4.svg');
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -476,7 +476,7 @@ h1 {
 }
 
 .container-backgroundText {
-    background-image: url('./assets/images/gymImg5.svg');
+    background-image: url('assets/images/gymImg5.svg');
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -531,7 +531,7 @@ h1 {
 }
 
 .phone{
-    background-image: url('./assets/images/bgPhone.svg');
+    background-image: url('assets/images/bgPhone.svg');
     background-position: center;
     background-size: contain; /* Ensure the image fits within the container */
     background-repeat: no-repeat; /* Prevent the image from repeating */
@@ -736,7 +736,7 @@ h1 {
 }
 
 .pricing {
-    background-image: url('./assets/images/pricingImg.svg');
+    background-image: url('assets/images/pricingImg.svg');
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -1026,7 +1026,7 @@ h1 {
 }
 
 .slogan {
-    background-image: url('./assets/images/sloganImg.svg');
+    background-image: url('assets/images/sloganImg.svg');
     /* background-position: center;
     background-size: cover;
     width: 100%;

@@ -71,7 +71,7 @@
 }
 
 .phone {
-    background-image: url('./assets/images/bgPhone.svg');
+    background-image: url('assets/images/bgPhone.svg');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
