@@ -223,10 +223,23 @@ h1 {
     background-repeat: no-repeat;
 }
 
+.logoGymBrands a{
+    margin-left: 30px;
+    padding: 20px 90px;
+    background-image: url('assets/images/comopForGymBrandsBlack.svg');
+    background-repeat: no-repeat;
+}
+
 .logoGym a:hover, .logoGym a:active {
     padding: 20px 90px;
     background-image: url('assets/images/comopForGymOwnersPurple.svg');
 }
+
+.logoGymBrands a:hover, .logoGymBrands a:active {
+    padding: 20px 90px;
+    background-image: url('assets/images/comopForGymBrandsPurple.svg');
+}
+
 
 /* Position and animate the arrow icon */
 .arrow-down {
@@ -398,6 +411,7 @@ h1 {
     padding-top: 24px;
     padding-bottom: 24px;
 }
+
 
 .container-background3 {
     background-image: url('assets/images/gymImg3.svg');
@@ -861,6 +875,7 @@ h1 {
     margin: 0px;
     padding: 0px;
     margin-left: 12px;
+    text-align: left;
 }
 
 .btnContact {
@@ -1133,6 +1148,7 @@ h1 {
 .contact1 h3 span {
     display: block;
     color: #D480FF;
+    margin-top: 8px;
 }
 
 .contact1 img {
@@ -1165,6 +1181,7 @@ h1 {
 .contact2 h3 span {
     display: block;
     color: #FFB952;
+    margin-top: 8px;
 }
 
 .contact2 img {
@@ -1230,3 +1247,117 @@ h1 {
 .footerStyle a:nth-child(3):hover {
     color: #6CC2FF;
 }
+
+    /* 
+    ========================================
+    
+    For the gym brands 
+    
+    ========================================
+    */
+
+    .containerBrand {
+        font-family: 'Azo Sans', sans-serif;
+        color: #F2F2F2;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
+    }
+    
+    .containerBrand h3 {
+        font-size: 16px;
+        font-weight: normal;  
+        margin-left: 24px; 
+        margin-right: 24px;  
+    }
+    
+    .containerBrand img {
+        width: 50%;
+        height: auto;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .containerBrand2 {
+        font-family: 'Azo Sans', sans-serif;
+        color: #F2F2F2;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
+    }
+    
+    .containerBrand2 h3 {
+        font-size: 16px;
+        font-weight: normal;  
+        margin-left: 24px; 
+        margin-right: 24px;  
+    }
+    
+    .containerBrand2 img {
+        width: 80%;
+        height: auto;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .containerBrand3 {
+        font-family: 'Azo Sans', sans-serif;
+        color: #F2F2F2;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
+    }
+    
+    .containerBrand3 h3 {
+        font-size: 16px;
+        font-weight: normal;  
+        margin-left: 24px; 
+        margin-right: 24px;  
+    }
+    
+    .containerBrand3 img {
+        width: 40%;
+        height: auto;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .containerBrand4 {
+        font-family: 'Azo Sans', sans-serif;
+        color: #F2F2F2;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
+    }
+    
+    .containerBrand4 h3 {
+        font-size: 16px;
+        font-weight: normal;  
+        margin-left: 24px; 
+        margin-right: 24px;  
+    }
+    
+    .containerBrand4 img {
+        width: 25%;
+        height: auto;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+
