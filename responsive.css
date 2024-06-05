@@ -8,8 +8,6 @@
     ========================================
     */
 
-
-
     /* 
     ========================================
     
@@ -39,8 +37,7 @@
 
     .image-container {
         display: grid;
-        grid-template-columns: (2, 1fr);
-        grid-template-rows: auto auto auto;
+        grid-template-columns: 1fr 1fr; /* Twee gelijke kolommen */
         gap: 24px;
     }
 
@@ -49,9 +46,8 @@
     }
 
     .container-background, .container-background2, .container-background3, .container-background4 {
-        grid-column: span 1;
-        height: 516px;
-        width: 726px;
+        height: 60vh; /* zorgt ervoor dat de divs zich aanpassen aan de hoogte van hun inhoud */
+        width: 100%;
     }
 
     .container-backgroundText {
@@ -71,99 +67,99 @@
     }
 
     /* Algemene styling voor mobiele apparaten */
-.phoneSection h1 {
-    font-family: 'Azo Sans', sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-    color: #1C1B1B;
-    text-align: center;
-    margin: 80px 24px 40px 24px;
-}
+    .phoneSection h1 {
+        font-family: 'Azo Sans', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        color: #1C1B1B;
+        text-align: center;
+        margin: 80px 24px 40px 24px;
+    }
 
-.phoneSection {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 24px 0 86px 0;
-}
+    .phoneSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 24px 0 86px 0;
+    }
 
-.phone {
-    background-image: url('assets/images/bgPhone.svg');
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 400px;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 12px; /* Adjusted margin for smaller spacing */
-    grid-area: phone;
-}
+    .phone {
+        background-image: url('assets/images/bgPhone.svg');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 400px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 12px; /* Adjusted margin for smaller spacing */
+        grid-area: phone;
+    }
 
-.fitpassBox, .newsfeedBox, .challengesBox, .profileBox {
-    display: flex;
-    flex-direction: column;
-    width: 260px;
-}
+    .fitpassBox, .newsfeedBox, .challengesBox, .profileBox {
+        display: flex;
+        flex-direction: column;
+        width: 260px;
+    }
 
-.fitpassBox h1, .newsfeedBox h1, .challengesBox h1, .profileBox h1,
-.fitpassBox span, .newsfeedBox span, .challengesBox span, .profileBox span,
-.fitpassBox p, .newsfeedBox p, .challengesBox p, .profileBox p {
-    font-family: 'Azo Sans', sans-serif;
-    margin: 0;
-}
+    .fitpassBox h1, .newsfeedBox h1, .challengesBox h1, .profileBox h1,
+    .fitpassBox span, .newsfeedBox span, .challengesBox span, .profileBox span,
+    .fitpassBox p, .newsfeedBox p, .challengesBox p, .profileBox p {
+        font-family: 'Azo Sans', sans-serif;
+        margin: 0;
+    }
 
-.fitpassBox h1, .newsfeedBox h1, .challengesBox h1, .profileBox h1 {
-    font-weight: bold;
-    font-size: 24px;
-    color: #1C1B1B;
-    text-align: left;
-}
+    .fitpassBox h1, .newsfeedBox h1, .challengesBox h1, .profileBox h1 {
+        font-weight: bold;
+        font-size: 24px;
+        color: #1C1B1B;
+        text-align: left;
+    }
 
-.fitpassBox span, .newsfeedBox span, .challengesBox span, .profileBox span {
-    font-weight: bold;
-    font-size: 64px;
-    color: #6CC2FF;
-    text-align: left;
-    padding-right: 12px;
-}
+    .fitpassBox span, .newsfeedBox span, .challengesBox span, .profileBox span {
+        font-weight: bold;
+        font-size: 64px;
+        color: #6CC2FF;
+        text-align: left;
+        padding-right: 12px;
+    }
 
-.fitpassBox p, .newsfeedBox p, .challengesBox p, .profileBox p {
-    font-weight: normal;
-    font-size: 16px;
-    color: #1C1B1B;
-    text-align: left;
-}
+    .fitpassBox p, .newsfeedBox p, .challengesBox p, .profileBox p {
+        font-weight: normal;
+        font-size: 16px;
+        color: #1C1B1B;
+        text-align: left;
+    }
 
-.clickable {
-    cursor: pointer;
-    padding: 12px;
-    box-sizing: border-box;
-    border-bottom: 2px solid transparent;
-    border-left: 4px solid #F2F2F2;
-}
+    .clickable {
+        cursor: pointer;
+        padding: 12px;
+        box-sizing: border-box;
+        border-bottom: 2px solid transparent;
+        border-left: 4px solid #F2F2F2;
+    }
 
-.activeBox {
-    border-left: 4px solid #6CC2FF;
-}
+    .activeBox {
+        border-left: 4px solid #6CC2FF;
+    }
 
-.activeBox h1 {
-    color: #6CC2FF;
-}
+    .activeBox h1 {
+        color: #6CC2FF;
+    }
 
-.downloadBtn {
-    padding-top: 44px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 24px;
-}
+    .downloadBtn {
+        padding-top: 44px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 24px;
+    }
 
 
-/* Styling voor grotere schermen */
+    /* Styling voor grotere schermen */
     .phoneSection {
         display: grid;
         grid-template-columns: 1;
@@ -331,7 +327,7 @@
         gap: 32px;
     }
 
-        /* 
+    /* 
     ========================================
     
     For the gym members 
@@ -372,4 +368,3 @@
     }
 
 }
-
