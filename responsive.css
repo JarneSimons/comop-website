@@ -8,6 +8,27 @@
     ========================================
     */
 
+    .imgHomepage {
+        margin-top: 20px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .image-wrapper {
+        position: relative; /* Required for the overlay positioning */
+    width: calc((100vw - 50px) / 3);/* Full width within the container */
+    height: 80vh; /* Adjust height to fit within viewport */
+    margin: 0;
+    }
+
+    .overlay-icon {
+        position: absolute; /* Position it absolutely within the wrapper */
+        top: 5%; /* Center it vertically */
+        right: 5%; /* Center it horizontally */
+    
+    }
+
     /* 
     ========================================
     
