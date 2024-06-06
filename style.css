@@ -200,13 +200,13 @@ h1 {
 
 #download {
     color: #F2F2F2;
-    background-color: #6CC2FF;
+    background-color: #1C1B1B;
     padding: 20px 20px;
-    border-radius: 10px;
+    border-radius: 50px;
 }
 
 #download:hover {
-    background-color: #C7E6FC;
+    background-color: #1C1B1B;
     color: #6CC2FF;
 }
 
