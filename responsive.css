@@ -226,7 +226,7 @@
     }
 
     .pricingClick {
-        top: 480vh;
+        top: 10vh;
     }
 
     .pricingBox h1 {
@@ -312,7 +312,7 @@
     }
 
     .contactClick {
-        top: 750vh;
+        top: 5vh;
     }
 
     .contact h1 {
@@ -379,13 +379,13 @@
 
     .contactClickMember {
         z-index: -999;
-        top: 640vh;
+        top: -10vh;
     }
 
     .pricingClickMember {
-        position: absolute;
+        position: relative;
         z-index: -999;
-        top: 480vh;
+        top: -15vh;
     }
 
 }

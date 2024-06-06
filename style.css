@@ -289,8 +289,8 @@ h1 {
 .aboutClick {  
     padding: 50px;
     z-index: -999;
-    position: absolute;
-    top: 85vh;
+    position: relative;
+    top: 0vh;
 }
 
 /* Keyframes for bounce animation */
@@ -793,8 +793,8 @@ h1 {
 .pricingClick {  
     padding: 50px;
     z-index: -999;
-    position: absolute;
-    top: 590vh;
+    position: relative;
+    top: 10vh;
 }
 
 .pricing {
@@ -1141,8 +1141,8 @@ h1 {
 .contactClick {  
     padding: 50px;
     z-index: -999;
-    position: absolute;
-    top: 885vh;
+    position: relative;
+    top: 5vh;
 }
 
 
@@ -1417,15 +1417,15 @@ h1 {
     */
     
     .contactClickMember {
-        position: absolute;
+        position: relative;
         z-index: -999;
-        top: 715vh;
+        top: -10vh;
     }
 
     .pricingClickMember {
-        position: absolute;
+        position: relative;
         z-index: -999;
-        top: 575vh;
+        top: -20vh;
     }
 
     .logoMembers {
