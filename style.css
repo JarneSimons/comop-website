@@ -37,7 +37,7 @@ a {
 .image-wrapper {
     position: relative; /* Required for the overlay positioning */
     width: 100%; /* Full width within the container */
-    height: calc((100vh - 100px - 24px) / 3); /* Adjust height to fit within viewport */
+    height: calc((100vh - 100px - 35px) / 3); /* Adjust height to fit within viewport */
     margin-bottom: 12px; /* Space between images */
     overflow: hidden; /* Hide overflow to prevent scrolling */
     cursor: pointer;
@@ -538,7 +538,8 @@ h1 {
 }
 
 .container-backgroundText {
-    background-image: url('assets/images/gymImg5.svg');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('assets/images/gymImg5.svg');;
+    
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -565,7 +566,7 @@ h1 {
     font-weight: 200;  
     margin-left: 24px; 
     margin-right: 24px;  
-    
+    line-height: 1.2;
 }
 
 
